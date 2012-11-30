@@ -10,6 +10,6 @@ This is a simple lisp program that implements the genetic code.
 
 Given a DNA sequence, it will find all coding regions in all 3 read frames in both forward (5' -> 3') direction and (unless in single-stranded mode) reverse (3' -> 5'). There is a mode for circular DNA strands.
 
-There is also a parser for L<http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes|GenBank genetic code> specifications in case you wish to use an alternate genetic code. In addition to the standard code, vertebrate and yeast mitochondrial codes are included.
+There is also a parser for L<GenBank genetic code specifications|http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes> in case you wish to use an alternate genetic code. In addition to the standard code, vertebrate mitochondrial and yeast mitochondrial codes are included.
 
-Note that this is mostly a demo and not a serious project like L<https://github.com/slyrus/cl-bio|cl-bio>.
+Note that this is mostly a demo and not a serious project like L<cl-bio|https://github.com/slyrus/cl-bio>.
