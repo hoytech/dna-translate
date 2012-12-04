@@ -6,10 +6,10 @@ dna-translate - Search DNA for coding sequences
 
 =head1 DESCRIPTION
 
-This is a simple lisp program that implements the genetic code.
+This is a simple lisp program that implements the genetic code. It is BSD licensed so you can do whatever you want with it. 
 
-Given a DNA sequence, it will find all coding regions in all 3 read frames in both forward (5' -> 3') direction and (unless in single-stranded mode) reverse (3' -> 5'). There is a mode for circular DNA strands.
+Given a DNA sequence, the program will find coding regions in all 3 read frames. In addition, it will search the reverse complement frames unless in single-stranded mode. Circular DNA strands (ie plasmids) are supported when in circular mode (implemented with nconced cyclical lists).
 
-There is also a parser for L<GenBank genetic code specifications|http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes> in case you wish to use an alternate genetic code. In addition to the standard code, vertebrate mitochondrial and yeast mitochondrial codes are included.
+Included is a parser for L<GenBank genetic code specifications|http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes> in case you wish to use an alternate genetic code. In addition to the standard code, vertebrate mitochondrial and yeast mitochondrial codes are included.
 
 Note that this is mostly a demo and not a serious project like L<cl-bio|https://github.com/slyrus/cl-bio>.

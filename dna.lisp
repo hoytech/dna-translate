@@ -1,4 +1,5 @@
 ;; (C) Doug Hoyte
+;; BSD licensed so you can do whatever you want with it
 
 
 #+sbcl (declaim (sb-ext:muffle-conditions style-warning))
